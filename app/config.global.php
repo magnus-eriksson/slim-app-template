@@ -1,9 +1,7 @@
 <?php
 /**
- * This is the global config file, or the "default" file.
+ * Global/Default Config
  * ----------------------------------------------------------
- * To change some files depending on the environment, use
- * should make those in the config.env.php file instead.
  */
 return  [
     'debug' => false,
