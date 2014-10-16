@@ -39,8 +39,8 @@ public/
 ```
 
 ### Conclusion
-This is by no means any "best-practice" structure. I made it to be able to knock out small apps using Slim quickly. And according to the DRY principle, this seemd like a good idea.
-To see in what order things happen, look at the bootrap.php-file and you will get a good grasp. Not much is really happening.
+This is by no means any "best-practice" structure. I made it to be able to knock out small apps using Slim quickly, and according to the DRY principle, this seemed like a good idea.
+To see the the order of things, look at the bootstrap.php-file. There isn't really much magic going on.
 
 Enjoy and happy coding!
  
