@@ -1,6 +1,6 @@
 {
     "name": "maer/slim-app-template",
-    "description": "Simple application template using Slim as a framework",
+    "description": "Simple application folder structure and bootstrapping for quickly getting started with Slim framework",
     "keywords": ["slim", "template"],
     "require": {
         "php": ">=5.4.0",
