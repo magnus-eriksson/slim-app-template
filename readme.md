@@ -9,6 +9,7 @@ Simple application folder structure and bootstrapping for quickly getting starte
 ### Installation
 ```
 $ composer create-project maer/slim-app-template
+$ composer install
 ```
 
 ### Setup
