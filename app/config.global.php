@@ -4,10 +4,11 @@
  * ----------------------------------------------------------
  */
 return  [
+    // Slim specific
     'debug' => false,
     'mode'  => 'production',
 
-    // Logging
-    'log.enable' => true,
-    'log.level'  => \Slim\Log::ERROR,
+    // Default namespace for controllers
+    'controllers.ns' => 'App\Controllers'
+
 ];

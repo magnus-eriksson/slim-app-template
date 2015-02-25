@@ -4,10 +4,12 @@
     "keywords": ["slim", "template"],
     "require": {
         "php": ">=5.4.0",
-        "slim/slim": "2.*"
+        "slim/slim": "2.*",
+        "illuminate/container": "4.2.*"
     },
     "autoload": {
         "psr-4": {
+            "Idefix\\": "idefix/",
             "App\\": "app/"
         }
     },

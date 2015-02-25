@@ -2,11 +2,11 @@
 /**
  * App Routes
  * ----------------------------------------------------------
- * Use the available Slim instnance in $app
+ * Use the available Slim instnance in slim()
  */
 
-$app->get('/', function() use($app) {
+slim()->get('/', function() {
 
-    echo $app->render('home.php');
+    controller('HomeController')->showHome();
 
 });
