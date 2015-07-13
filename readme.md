@@ -19,7 +19,7 @@ There are two config files:
 
 I've added the Illuminate\Container to this package to be able to handle dependency injection.
 
-There is also a file called app/start.php which is included right before the routes are called. This would be a good place to register classes for dependency injection and bootstrap other eventual packages you include. 
+There is also a file called app/start.php which is included right before the routes are called. This would be a good place to register classes for dependency injection and bootstrap other packages you're using.
 
 To get the Slim instance, use the helper `slim()`.
 
